@@ -16,7 +16,16 @@ requires json.asp (http://code.google.com/p/aspjson/ )
 inspired by FireASP by Jonathan Dalrymple's Fire ASP script
 ----------------------------------------------------------------------------------
 
-Updated 09/01/2012
+Updated 09/01/2012 V 1.2
+
+Improvement: 
+Global methods for public class function.
+
+Added:
+log_table function for 2D array logging.
+
+
+Updated 09/01/2012 V1.1
 
 Improvement: 
 All ASP system collections are now grouped (collapsed by default) so they only
@@ -34,6 +43,6 @@ label = add label to the variable/object you are about to output on the same lin
 obj = array, string, json object
 
 
-Initial release: Dec 2011
+Initial release: Dec 2011 V1
 
 Use log "some text" to output to the console

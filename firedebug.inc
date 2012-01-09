@@ -1,4 +1,21 @@
 <%
+'----------------------------------------------------------------------
+'By David Meagor - BooRoo.com 2012 (http://booroo.com)
+'
+'released under MIT license (http://www.opensource.org/licenses/mit-license.php)
+'
+'requires json.asp (http://code.google.com/p/aspjson/ )
+'----------------------------------------------------------------------
+
+'Functions
+'-----------
+' log value
+' log_type type,label,value
+' log_group_start label,collapsed (true/false)
+' log_group_end
+' log_table array (requires 2 dimensional array)
+'----------------------------------------------------------------------
+
 	Class FireASP
 		
 		'Private variables 
@@ -181,12 +198,27 @@
 	End Class
 	Set FIRE_ASP = new FireASP
 	
-	Function log( ByRef msg )
-		
-		FIRE_ASP.log( msg )
-		
-	End Function
+	sub log( ByRef msg )		
+		call FIRE_ASP.log(msg)
+	end sub
 
+
+	sub log_type( logtype,label,ByRef obj )		
+		call FIRE_ASP.log_type(logtype,label,obj)
+	end sub
+
+
+	sub log_group_start( label,collapsed )
+		call FIRE_ASP.log_group_start(label,collapsed)
+	end sub
+
+	sub log_group_end()
+		call FIRE_ASP.log_group_end()
+	end sub
+
+	sub log_table(ByRef obj)
+		call FIRE_ASP.log_type("TABLE","Array",obj)
+	end sub
 
 
 
