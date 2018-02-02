@@ -1,4 +1,5 @@
 <%@ LANGUAGE=VBScript CODEPAGE="65001"%>
+<!--#include file="json/JSON.asp" -->
 <!--#include file="firedebug.inc" -->
 <%
 '----------------------------------------------------------------------
