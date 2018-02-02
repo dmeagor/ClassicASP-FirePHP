@@ -1,4 +1,5 @@
-----------------------------------------------------------------------------------
+# Classic ASP debugging made slightly less painful
+
 Debugging legacy Classic ASP scripts is a painful job.  This script will enable
 you to use FirePHP (https://github.com/firephp/firephp-for-firefox-devtools) to 
 log errors and messages to the Firefox console window.
