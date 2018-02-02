@@ -44,9 +44,9 @@ There is no built in support for SQL however we recommend you create some helper
     log_group_end()
     
     log_type( logtype,label, obj )
-    logtype = "INFO", "ERROR", "LOG" or "WARN" for different colours/icons.
-    label = add label to the variable/object you are about to output on the same line.
-    obj = array, string, json object
+    ' logtype : "INFO", "ERROR", "LOG" or "WARN" for different colours/icons.
+    ' label : add label to the variable/object you are about to output on the same line.
+    ' obj : array, string, json object
 
 
 ## Disclaimer
