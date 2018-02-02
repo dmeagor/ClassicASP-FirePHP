@@ -35,18 +35,18 @@ There is no built in support for SQL however we recommend you create some helper
 
 ## Group log entries functions
 
-`log "hellow world" to output to the console
-`
-`log_group_start( label, collapsed )
-`  log "Some grouped text"
-`  log "Bla bla bla"
-`  log "and so on..."
-`log_group_end()
-`
-`log_type( logtype,label, obj )
-`logtype = "INFO", "ERROR", "LOG" or "WARN" for different colours/icons.
-`label = add label to the variable/object you are about to output on the same line.
-`obj = array, string, json object
+    log "hellow world" to output to the console
+    
+        log_group_start( label, collapsed )
+        log "Some grouped text"
+        log "Bla bla bla"
+       log "and so on..."
+    log_group_end()
+    
+    log_type( logtype,label, obj )
+    logtype = "INFO", "ERROR", "LOG" or "WARN" for different colours/icons.
+    label = add label to the variable/object you are about to output on the same line.
+    obj = array, string, json object
 
 
 ## Disclaimer
