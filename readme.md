@@ -1,6 +1,7 @@
 ----------------------------------------------------------------------------------
 Debugging legacy Classic ASP scripts is a painful job.  This script will enable
-you to use FirePHP (https://github.com/firephp/firephp-for-firefox-devtools)
+you to use FirePHP (https://github.com/firephp/firephp-for-firefox-devtools) to 
+log errors and messages to the Firefox console window.
 
 It's particularly useful for catching errors and problems with AJAX/JSON requests
 where outputting to the browser will break the JSON format.
@@ -10,7 +11,7 @@ released under MIT license (http://www.opensource.org/licenses/mit-license.php)
 requires json.asp (http://code.google.com/p/aspjson/ )
 
 inspired by FireASP by Jonathan Dalrymple's Fire ASP script
-----------------------------------------------------------------------------------
+
 
 ## Installation
 
