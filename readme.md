@@ -37,7 +37,7 @@ There is no built in support for SQL however we recommend you create some helper
 
     log "hellow world" to output to the console
     
-        log_group_start( label, collapsed )
+    log_group_start( label, collapsed )
         log "Some grouped text"
         log "Bla bla bla"
        log "and so on..."
